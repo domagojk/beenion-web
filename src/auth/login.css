@@ -1,0 +1,37 @@
+.login-form {
+  max-width: 350px;
+  margin: 60px auto 0 auto;
+}
+.login-form-forgot {
+  float: right;
+  line-height: 2;
+}
+.login-form-button {
+  width: 100%;
+}
+.login-form-spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10px;
+}
+.loginpage {
+  text-align: center;
+}
+.demo-problem,
+.demo-solution {
+  font-size: 3em;
+}
+
+.downloadlink {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  color: #ababab;
+  justify-content: center;
+}
+
+.downloadlink i {
+  padding: 0 5px;
+  font-size: 30px
+}

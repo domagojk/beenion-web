@@ -1,0 +1,53 @@
+body {
+  background: #f9f9f9
+}
+.ant-breadcrumb a {
+  color: rgba(0, 0, 0, 0.3)
+}
+.ant-breadcrumb-separator {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.demo-loadmore-list {
+  min-height: 350px;
+}
+.ant-spin-nested-loading {
+  min-height: 350px;
+}
+.ant-list-item-content,
+.ant-list-item-meta {
+  width: 100%;
+}
+.ant-list-item-meta-content {
+  width: calc(100% - 32px);
+}
+.feedurl {
+  color: #a2a2a2;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/**
+* --- AVATAR ---
+*/
+.color-rate-1 {
+  background: #ea5b0c !important;
+}
+
+.color-rate-2 {
+  background: #f28d4f !important;
+}
+
+.color-rate-3 {
+  background: #24cefb !important;
+}
+
+.color-rate-4 {
+  background: #00cf86 !important;
+}
+
+.color-rate-5 {
+  background: #00de00 !important;
+}

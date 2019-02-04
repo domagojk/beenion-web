@@ -1,0 +1,43 @@
+{
+  "name": "ui-web-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.2",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-router-dom": "^4.3.1",
+    "amazon-cognito-identity-js": "^2.0.30",
+    "antd": "^3.9.3",
+    "auth0-js": "^9.8.0",
+    "bootstrap": "^4.1.3",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-powerplug": "^1.0.0-rc.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "reqwest": "^2.0.5",
+    "rxjs": "^6.3.3",
+    "timeago-react": "^2.0.0",
+    "typescript": "^3.1.6",
+    "undux": "^5.0.0-beta.17"
+  },
+  "scripts": {
+    "publish": "aws s3 sync build/ s3://beenion-web && aws s3 cp s3://beenion-web/index.html s3://beenion-web/index.html --metadata-directive REPLACE --cache-control max-age=0",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
